@@ -16,4 +16,4 @@ EXPOSE 5000
 RUN npm run build
 
 # Comando para rodar o aplicativo Node.js
-CMD ["node", "src/index.js"]
+CMD ["node", "dist/index.js"]
